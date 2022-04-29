@@ -81,8 +81,36 @@ ul li a {
 }
 
 #icon {
+  margin-left: 10px;
   cursor: pointer;
-  width: 100px;
+  width: 70px;
+}
+
+@media (max-width: 800px) {
+  .container .navbar{
+    padding: 20px;
+  }
+  
+  .container .navbar h3 {
+    font-size: 1.5rem;
+    margin-right: 10px;
+  }
+
+  .left-col h1 {
+    font-size: 4rem;
+    transform: translateY(-80px);
+    padding-left: 20px;
+  }
+  
+}
+
+@media (max-width: 1200px) {
+  .left-col h1 {
+    font-size: 3rem;
+    transform: translateY(-80px);
+    padding-left: 20px;
+  }
+  
 }
 
 
